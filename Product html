@@ -1,0 +1,4 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Product - DIANA CREATIONS</title><link rel="stylesheet" href="style.css"></head><body>
+<nav class="navbar"><div class="nav-container"><h2 class="logo">DIANA CREATIONS</h2><ul class="nav-menu"><li><a href="index.html">Home</a></li><li><a href="shop.html">Shop</a></li></ul></div></nav>
+<section style="padding:50px 5%"><h1>Product Details</h1><p>Click "Order on WhatsApp" on any product to see details and order.</p></section>
+<footer><p style="text-align:center">© 2026 Diana Creations</p></footer></body></html>
