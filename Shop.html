@@ -1,6 +1,0 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shop - DIANA CREATIONS</title><link rel="stylesheet" href="style.css"></head><body>
-<nav class="navbar"><div class="nav-container"><h2 class="logo">DIANA CREATIONS</h2><ul class="nav-menu"><li><a href="index.html">Home</a></li><li><a href="shop.html">Shop</a></li><li><a href="cart.html">Cart <span id="cart-count">0</span></a></li></ul></div></nav>
-<section style="padding:50px 5%"><h1>Shop All Crochet</h1><div class="product-grid" id="all-products"></div></section>
-<footer><p style="text-align:center">© 2026 Diana Creations</p></footer>
-<script src="script.js"></script><script>products.forEach(p=>{document.getElementById('all-products').innerHTML+=`<div class="product-card"><img src="${p.img}"><h3>${p.name}</h3><p class="price">₦${p.price.toLocaleString()}</p><button onclick="addToCart(${p.id})" class="btn btn-gold">Add to Cart</button><a href="https://wa.me/2348025246991?text=Hello%20Diana%20Creations,%20I%20would%20like%20to%20order%20${encodeURIComponent(p.name)}" class="btn btn-rose">Order on WhatsApp</a></div>`});updateCartCount();</script></body></html>
