@@ -1,0 +1,29 @@
+:root{--blush:#FADADD;--white:#FFFFFF;--gold:#D4AF37;--cream:#FFF8F0;--rose:#F4C2C2;--text:#3D2F2F;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--cream);color:var(--text);font-family:'Poppins',sans-serif}
+h1,h2,h3{font-family:'Playfair Display',serif}
+.navbar{background:var(--white);padding:15px 5%;box-shadow:0 2px 15px rgba(0,0,0,0.05);position:sticky;top:0;z-index:100}
+.nav-container{display:flex;justify-content:space-between;align-items:center}
+.logo{color:var(--gold);font-size:1.5em}
+.nav-menu{display:flex;list-style:none;gap:15px}
+.nav-menu a{text-decoration:none;color:var(--text);font-weight:500}
+.nav-menu a:hover{color:var(--gold)}
+.btn{padding:12px 25px;border-radius:30px;text-decoration:none;font-weight:500;display:inline-block;margin:5px}
+.btn-gold{background:var(--gold);color:var(--white)}
+.btn-rose{background:var(--rose);color:var(--text)}
+.hero{background:linear-gradient(rgba(250,218,221,0.9),rgba(250,218,221,0.9));padding:120px 5%;text-align:center}
+.hero h1{font-size:2.8em;margin-bottom:15px}
+.products-section,.why-us{padding:60px 5%;text-align:center}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;margin-top:30px}
+.product-card{background:var(--white);border-radius:20px;padding:15px;box-shadow:0 5px 20px rgba(0,0,0,0.08)}
+.product-card img{width:100%;border-radius:15px;height:250px;object-fit:cover}
+.price{color:var(--gold);font-weight:600;font-size:1.3em}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-top:30px}
+.why-card{background:var(--white);padding:20px;border-radius:15px;border-left:4px solid var(--gold)}
+.form-group{margin-bottom:15px;text-align:left}
+.form-group input,.form-group textarea{width:100%;padding:12px;border:1px solid #ddd;border-radius:8px}
+footer{background:var(--text);color:var(--white);padding:50px 5%}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:30px}
+.copyright{text-align:center;border-top:1px solid #555;padding-top:20px;margin-top:20px}
+.hamburger{display:none;cursor:pointer}
+@media(max-width:768px){.nav-menu{display:none}.nav-menu.active{display:flex;flex-direction:column;position:absolute;top:60px;left:0;background:var(--white);width:100%;padding:20px}.hamburger{display:block}}
