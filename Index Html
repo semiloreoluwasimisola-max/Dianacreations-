@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIANA CREATIONS - Handmade Crochet Boutique</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-container">
+    <h2 class="logo">DIANA CREATIONS</h2>
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="index.html">Home</a></li><li><a href="shop.html">Shop</a></li><li><a href="categories.html">Categories</a></li>
+      <li><a href="about.html">About</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="delivery.html">Delivery</a></li>
+      <li><a href="contact.html">Contact</a></li><li><a href="login.html">Login</a></li><li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Beautifully Handmade, Made With Love.</h1>
+  <p>Unique crochet pieces carefully handmade to add beauty, warmth and personality to your everyday life.</p>
+  <a href="shop.html" class="btn btn-gold">Shop Now</a>
+  <a href="categories.html" class="btn btn-rose">Explore Collection</a>
+</section>
+
+<section class="products-section">
+  <h2>Featured Products</h2>
+  <div class="product-grid" id="featured-products"></div>
+</section>
+
+<section class="why-us"><h2>Why Choose Diana Creations?</h2>
+  <div class="why-grid">
+    <div class="why-card">✓ 100% Handmade with premium yarn</div>
+    <div class="why-card">✓ Custom sizes available</div>
+    <div class="why-card">✓ Fast delivery across Nigeria</div>
+    <div class="why-card">✓ Luxury packaging</div>
+  </div>
+</section>
+
+<section class="delivery-preview" style="background:var(--blush);padding:50px 5%;text-align:center">
+  <h2>Delivery Information</h2>
+  <p>Lagos: ₦2,000 - 24-48 hours | Other States: ₦3,500 - 3-5 days</p>
+  <a href="https://wa.me/2348025246991" class="btn btn-gold">Chat on WhatsApp +234 802 524 6991</a>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div><h3>DIANA CREATIONS</h3><p>Handmade with love, creativity and care.</p></div>
+    <div><h4>Quick Links</h4><a href="shop.html">Shop</a><br><a href="about.html">About</a><br><a href="contact.html">Contact</a></div>
+    <div><h4>Customer Support</h4><a href="delivery.html">Delivery</a><br><a href="contact.html">Contact</a></div>
+    <div><h4>Contact</h4><p>WhatsApp: <a href="https://wa.me/2348025246991" style="color:var(--gold)">+234 802 524 6991</a></p></div>
+  </div>
+  <p class="copyright">© 2026 Diana Creations. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
